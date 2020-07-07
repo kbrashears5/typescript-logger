@@ -12,7 +12,7 @@ export class Logger implements ILogger {
     public LogLevel: LogLevel;
 
     /**
-     * Initialize new instance of Logger
+     * Create new instance of Logger
      * @param logLevel {LogLevel} Logging level
      */
     constructor(logLevel: LogLevel = LogLevel.Information) {

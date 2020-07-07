@@ -3,9 +3,9 @@
  */
 export enum LogLevel {
     Off = 0,
-    Information = 1,
+    Error = 1,
     Warning = 2,
-    Error = 3,
+    Information = 3,
     Trace = 4,
     Debug = 5,
 }
