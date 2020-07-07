@@ -2,7 +2,7 @@ import { ILogger } from './interface';
 import { LogLevel } from './log-level';
 
 /**
- * Implementation of ILogger
+ * Mock implementation of ILogger
  */
 export class LoggerMock implements ILogger {
     /**
