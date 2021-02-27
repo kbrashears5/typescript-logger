@@ -8,15 +8,19 @@
 
 [![NPM Version](https://img.shields.io/npm/v/typescript-ilogger)](https://img.shields.io/npm/v/typescript-ilogger)
 [![Downloads](https://img.shields.io/npm/dt/typescript-ilogger)](https://img.shields.io/npm/dt/typescript-ilogger)
+
 </div>
 
 ## Install
+
 ```
 npm install typescript-ilogger@latest
 ```
 
 ## Logger
+
 The ILogger has 6 different log levels that are displayed in hierarchial order on which logs are actually logged:
+
 - Debug
 - Trace
 - Information
