@@ -2,9 +2,19 @@ name: CI/CD
 
 on:
   push:
-    branches: [ master, main ]
+    branches: 
+      - master
+      - main
+    paths:
+      - src/**
+      - package.json
   pull_request:
-    branches: [ master, main ]
+    branches: 
+      - master
+      - main
+    paths:
+      - src/**
+      - package.json
 
 jobs:
   build:
