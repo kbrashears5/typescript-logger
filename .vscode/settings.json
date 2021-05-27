@@ -5,6 +5,7 @@
     "codeql",
     "eqeqeq",
     "ilogger",
+    "martinbeentjes",
     "paren",
     "postpublish",
     "prebuild"
