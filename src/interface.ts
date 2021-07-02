@@ -7,13 +7,13 @@ import { LogLevel } from './log-level';
 export interface ILogger {
   LogLevel: LogLevel;
 
-  Debug(message: any): void;
+  Debug(message: any): string;
 
-  Error(message: any): void;
+  Error(message: any): string;
 
-  Information(message: any): void;
+  Information(message: any): string;
 
-  Trace(message: any): void;
+  Trace(message: any): string;
 
-  Warning(message: any): void;
+  Warning(message: any): string;
 }

@@ -18,28 +18,28 @@ export class LoggerMock implements ILogger {
     this.LogLevel = logLevel;
   }
 
-  public Debug(message: any): void {
-    this.Log(message);
+  public Debug(message: any): string {
+    return this.Log(message);
   }
 
-  public Error(message: any): void {
-    this.Log(message);
+  public Error(message: any): string {
+    return this.Log(message);
   }
 
-  public Information(message: any): void {
-    this.Log(message);
+  public Information(message: any): string {
+    return this.Log(message);
   }
 
-  public Trace(message: any): void {
-    this.Log(message);
+  public Trace(message: any): string {
+    return this.Log(message);
   }
 
-  public Warning(message: any): void {
-    this.Log(message);
+  public Warning(message: any): string {
+    return this.Log(message);
   }
 
   // eslint-disable-next-line class-methods-use-this
-  private Log(message: any): void {
+  private Log(message: any): string {
     return message;
   }
 }
