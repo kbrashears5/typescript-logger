@@ -6,6 +6,10 @@ updates:
       interval: 'weekly'
     reviewers:
       - 'kbrashears5'
+    groups:
+      all:
+        patterns:
+          - '*'
 
   - package-ecosystem: 'npm'
     directory: '/'
